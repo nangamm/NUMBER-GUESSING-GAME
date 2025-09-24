@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>เกมทายตัวเลข!</h1>
+        <p>เกมนี้ง่ายมาก: ผมจะสุ่มเลข 1-100 ไว้ในใจ และคุณแค่ทายให้ถูก!</p>
+        <p>ถ้าคุณทายผิด ผมจะใบ้ให้ว่าเลขที่ผมซ่อนไว้นั้น มากกว่า หรือ น้อยกว่า เลขที่คุณทาย</p>
+        <div class="form">
+            <label for="guessField">Enter a Guess : </label>
+            <input type="number" id="guessField" class="guessField">
+            <input id="button" type="submit" value="Submit guess" class="guessSubmit"></input>
+        </div>
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

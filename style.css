@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0% auto;
+    background-color: #20364B;
+    font-family: "Kanit", sans-serif;
+}
+.box{
+    border: 1px solid black;
+    padding: 20px 20px;
+    margin-top: 200px;
+    background-color: #FCC020;  
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #FCFEF9;
+    margin-bottom: 1rem;
+}
+
+#button{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+#button:hover{
+    background-color: #0F3658;
+}
+p{
+    font-size: large;
+    font-size: 1.2rem;
+}
+h1{
+    border: 1px solid #20364B;
+    padding: 8px;
+    background-color: #20364B;
+    border-radius: 15px;
+}
+
+.guessSubmit {
+    background-color: #20364B;
+    border: none;
+}
+
+.guessField {
+    padding: 10px;
+    border: none;
+    border-radius: 0.5rem;
+    margin-right: 0.1rem;
+}
+
+.form {
+    margin-top: 1rem;
+}
+
+.resultParas {
+    margin-top: 1rem;
+}
+
+.newgame {
+    margin-top: 0.7rem;
+    background-color: #20364B;
+    color: white;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.5rem;
+}
